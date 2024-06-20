@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head><!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <title></title>
+            <meta name="description" content="">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+            <script src="https://cdn.tailwindcss.com"></script>
+            <link rel="stylesheet" href="/stylesheets/edit.css">
+    
+            <style>
+                .material-symbols-outlined {
+                  font-variation-settings:
+                  'FILL' 0,
+                  'wght' 400,
+                  'GRAD' 0,
+                  'opsz' 24
+                }
+            </style>
+        </head>
+        <body class=" backdrop-blur-[px]">
+            <div class=" relative h-screen ">
+    
+                <!-- <a href="/logout" class=" gap-1 flex justify-center items-center absolute right-4 py-2 px-3 top-3 text-white bg-red-500 rounded">
+                    <span class="material-symbols-outlined">move_item </span><span> logout</span>
+                </a>     -->
+    
+                <div class="w-full flex justify-center">
+                    <div class=" wrapper mt-5">
+                        <form method="post" action="/update/ <%= post._id %> ">
+                            <h4 class=" text-center font-light text-base "></h4>
+                            <h1>Edit Post</h1>
+                            <div class="input-box">
+                                <input type="url" placeholder="Image URL " name="img" >
+                            </div>
+                            <div class="input-box">
+                                <input type="text" placeholder="caption" name="caption" >
+                            </div>
+                            <button type="submit" value="Update Post" class="btn bg-yellow-500">Edit Post</button>
+                        </form>
+                    </div>
+                </div>
+    
+    
+                
+            </div>       
+        <script src="/scripts/index.js" async defer></script>
+        </body>
+    </html>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="" async defer></script>
+    </body>
+</html>

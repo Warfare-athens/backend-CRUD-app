@@ -1,0 +1,78 @@
+<!-- 
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/stylesheets/index.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+       <div class=" main px-10 py-5 h-screen w-full bg-[#222222]">
+            <div class=" flex flex-col items-center mt-3">
+                <h1 class="  text-3xl mb-3  text-[#00ff00]">Create User</h1>
+                <hr class=" w-96  mb-8 border-white  ">
+                </div>
+                <form class=" flex items-center flex-col " method="post" action="/register">
+                    <input class=" px-5 py-2 w-80 outline-none rounded-lg text-white bg-[#333333] " name="username" placeholder="username" type="text">
+                    <input class=" px-5 mt-2 py-2 w-80 outline-none rounded-lg text-white bg-[#333333] " name="name" placeholder="name" type="text">
+                    <input class=" px-5 mt-2 py-2 w-80 outline-none rounded-lg text-white bg-[#333333] " name="email" placeholder="email" type="email">
+                    <input class=" px-5 mt-2 py-2 w-80 outline-none rounded-lg text-white bg-[#333333] " name="password" placeholder="password" type="password">
+                    <input class=" px-5 py-2 mt-2 w-80 outline-none rounded-lg text-white bg-[#333333] " name="age" placeholder="age" type="number">
+                    <input class=" px-5 py-2 mt-3 w-52 font-medium text-center text-black outline-none rounded-lg bg-[#4be84b] " value="Create User" type="submit">
+                </form>
+            </div>
+       </div> 
+        <script src="" async defer></script>
+    </body>
+</html> -->
+
+
+
+
+
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/stylesheets/login.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+       <div class="wrapper">
+        <form action="/register" method="post">
+            <h1>Register</h1>
+            <div class="input-box">
+                <input type="text" placeholder="Full name" name="name" required>
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Username" name="username" required>
+            </div>
+            <div class="input-box">
+                <input type="email" placeholder="email" name="email" required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="password" name="password" required>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="age" name="age" required>
+            </div>
+            <button type="submit" class="btn">Register</button>
+            <div class="register-link">
+                <p>Already have Account ? <a href="/login">
+                        Login
+                    </a></p>
+            </div>
+        </form>
+    </div>
+    </body>
+</html>
